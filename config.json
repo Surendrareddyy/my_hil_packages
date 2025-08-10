@@ -1,0 +1,5 @@
+[
+  {"role": "sa", "type": "spectrum_analyzer", "ip": "192.168.1.150", "port": 5025},
+  {"role": "sg", "type": "signal_generator", "ip": "192.168.1.151"},
+  {"role": "psu","type": "power_supply", "resource_string": "TCPIP0::192.168.1.152::inst0::INSTR"}
+]
