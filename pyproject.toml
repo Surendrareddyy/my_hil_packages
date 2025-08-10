@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "instrument_control"
+version = "0.1.0"
+description = "Modular PyVISA + SCPI instruments control (mockable)"
+authors = [ { name = "Surendra Reddy Yella" } ]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-q"
